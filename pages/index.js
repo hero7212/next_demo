@@ -1,6 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 import Nav from '../components/nav'
+import Jspang from '../components/jspang'
 
 const Home = () => (
   <div>
@@ -10,6 +11,9 @@ const Home = () => (
     </Head>
 
     <Nav />
+    <Jspang>
+        按钮组件
+    </Jspang>
 
     <div className="hero">
       <h1 className="title">Welcome to Next.js!</h1>
